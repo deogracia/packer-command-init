@@ -14,7 +14,7 @@ Not sure if it's necessary.
 Next, clone this repository into `$GOPATH/src/github.com/deogracia/packer-command-init`.  Then build the packer-provisioner-ansible-local binary:
 
 
-    go build -o $GOPATH/packer-command-init \
+    go build -o $GOPATH/bin/packer-command-init \
     plugin/packer-command-init/main.go
 
 
