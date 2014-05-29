@@ -7,7 +7,7 @@ It creates all the default files and directories. For now, there all blanks.
 
 ## Install ##
 
-
+### Compilation ###
 Not sure if it's necessary.
 > Download and build Packer from source as described [here](https://github.com/mitchellh/packer#developing-packer).
 
@@ -17,6 +17,8 @@ Next, clone this repository into `$GOPATH/src/github.com/deogracia/packer-comman
     go build -o $GOPATH/bin/packer-command-init \
     plugin/packer-command-init/main.go
 
+### Configuration ###
+Source : [Packer's documentation](http://www.packer.io/docs/extend/plugins.html#toc_2)
 
 Now [configure Packer](http://www.packer.io/docs/other/core-configuration.html) to pick up the new command:
 
