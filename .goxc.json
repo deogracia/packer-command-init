@@ -1,0 +1,14 @@
+{
+	"PrereleaseInfo": "0.0.2",
+	"ConfigVersion": "0.9",
+	"TaskSettings": {
+		"bintray": {
+			"downloadspage": "bintray.md",
+			"exclude": "bintray.md",
+			"outputFormat": "by-file-extension",
+			"package": "packer-command-init",
+			"repository": "packer-plugins",
+			"subject": "deogracia"
+		}
+	}
+}
