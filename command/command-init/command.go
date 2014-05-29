@@ -16,7 +16,7 @@ func (Command) Help() string {
 }
 
 func (c Command) Synopsis() string {
-	return "Create the minimum file and directories needed"
+	return "Create the minimum files and directories needed"
 }
 
 func (c Command) Run(env packer.Environment, args []string) int {
