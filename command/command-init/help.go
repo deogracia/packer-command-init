@@ -1,7 +1,7 @@
 package commandinit
 
 const helpString = `
-Usage: packer init
+Usage: packer init [--version] [--help|-h]
 
 	Create the minimum files and directories needed.
 
