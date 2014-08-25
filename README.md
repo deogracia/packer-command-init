@@ -11,7 +11,7 @@ It creates all the default files and directories. For now, there all blanks.
 Not sure if it's necessary.
 > Download and build Packer from source as described [here](https://github.com/mitchellh/packer#developing-packer).
 
-Next, clone this repository into `$GOPATH/src/github.com/deogracia/packer-command-init`.  Then build the packer-provisioner-ansible-local binary:
+Next, clone this repository into `$GOPATH/src/github.com/deogracia/packer-command-init`.  Then build the packer-command-init binary:
 
 
     go build -o $GOPATH/bin/packer-command-init \
